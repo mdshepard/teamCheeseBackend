@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 const express = require('express');
-const cores = require('cors')
+const cors = require('cors');
 
 // create an express application and enable cors
 const app = express();
