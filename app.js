@@ -15,3 +15,7 @@ const client = new Client({
 app.get("/data", (req, res) => {
     res.end("cheesedingle")
 });
+
+app.listen(3000, () => {
+    console.log("this is working")
+})
