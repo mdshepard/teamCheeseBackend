@@ -23,6 +23,6 @@ app.get("/data", (req, res) => {
     res.end("cheesedingle")
 });
 
-app.listen(3000, () => {
+app.listen( process.env.port || 3000, () => {
     console.log("this is working")
 })
